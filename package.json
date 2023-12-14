@@ -1,0 +1,11 @@
+{
+  "name": "new_movies_here",
+  "version": "1.0.0",
+  "scripts": {
+    "dev:back": "nodemon ./back/server.js",
+    "dev:front": "cd ./front/ && yarn dev"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {}
+}

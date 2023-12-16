@@ -11,7 +11,7 @@
 
 - [x] Filmes semelhantes
 
-- [ ]  Página dos detalhes dos atores/atrizes
+- [x]  Página dos detalhes dos atores/atrizes
 <h5>
   <a href="https://github.com/ThaylonHani/MoviesHere" target="_blank">
     Link do antigo projeto no github

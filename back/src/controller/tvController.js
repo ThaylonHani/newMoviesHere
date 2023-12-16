@@ -41,6 +41,18 @@ export class tvController {
       res.status(500).json({erro:error.message})
     }
   }
+
+  static async creditsTv(req,res) {
+    try {
+      const creditsTv = await axios(
+        `https://api.themoviedb.org/3/tv/${req.params.id}/credits`,
+        authorization
+      ).then((resp) => resp.data);
+      res.status(200).json({ creditsTv });
+    } catch (error) {
+      res.status(500).json({ erro: error.message });
+    }
+  }
   
   static async onTheAir(req, res) {
     try {

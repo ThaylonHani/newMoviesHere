@@ -7,6 +7,7 @@ TvRoutes.get("/tv", tvController.discoverTv);
 TvRoutes.get("/tv/search/:name", tvController.searchTv);
 TvRoutes.get("/tv/recommendations/:id", tvController.recommendationsTv);
 TvRoutes.get("/tv/similar/:id", tvController.similarTv);
+TvRoutes.get("/tv/credits/:id", tvController.creditsTv);
 TvRoutes.get("/tv/popular", tvController.popularTv);
 TvRoutes.get("/tv/topRated", tvController.topRatedTV);
 TvRoutes.get("/tv/onTheAir", tvController.onTheAir);
